@@ -11,21 +11,43 @@ body{
 /*header*/
 header {
     background-color: white;
-    height: 100px;
+    height: 80px;
 }
 .logo{
     vertical-align: middle;
+    padding: 20px 10px;
+    
 }
 .logo-text{
     vertical-align: middle;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /*end header*/
+
+/*main*/
 main{
-    background-color: white;
+    
     width: 70%;
     margin: 30px auto;
 }
+.block{
+    background-color: white;
+    padding: 20px 10px;
+  
+}
+.link{
+    margin-bottom: 15px;
+    
+}
+a{
+    padding: 20px 10px;
+    
+}
+    
 /*list*/
 ul{
     list-style: none;
@@ -63,4 +85,5 @@ ul{
 }
 
 /*end list*/
+/*end main*/
 
