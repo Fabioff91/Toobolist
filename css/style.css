@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    background-color: #f6f8f9;
+}
+/*header*/
+header {
+    background-color: white;
+    height: 100px;
+}
+.logo{
+    vertical-align: middle;
+}
+.logo-text{
+    vertical-align: middle;
+}
+
+/*end header*/
+main{
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+}
+/*list*/
+ul{
+    list-style: none;
+}
+
+.entity{
+    vertical-align: middle;
+    font-size: 25px;
+}
+.titletext{
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.true{
+    color: green;
+    font-size: 10px;
+    border: 1px solid green;
+   
+}
+.false{
+    color:red;
+    font-size: 8px;
+    border: 1px solid red;
+    
+}
+.answer{
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/*end list*/
+
