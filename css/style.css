@@ -37,14 +37,36 @@ main{
 .block{
     background-color: white;
     padding: 20px 10px;
+
   
 }
 .link{
     margin-bottom: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     
+}
+.button{
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cyan{
+    background-color: #47adf1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: 1px solid #47adf1;
+}
+.white{
+    color: #c5cbd0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: 1px solid #c5cbd0;
 }
 a{
     padding: 20px 10px;
+    margin-left: 15px;
     
 }
     
@@ -56,11 +78,13 @@ ul{
 .entity{
     vertical-align: middle;
     font-size: 25px;
+    margin-left: 15px;
 }
 .titletext{
     display: inline-block;
     font-size: 30px;
     vertical-align: middle;
+    padding: 20px 0px;
 }
 .true{
     color: green;
@@ -81,9 +105,40 @@ ul{
     border-radius: 50%;
     display: inline-block;
     text-align: center;
+    margin-left: 35px;
     
 }
-
+.box{
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+}
+.editorial{
+    border: 1px solid blue;
+    background-color: blue;
+}
+.q1{
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+}
+.recruiting{
+    border: 1px solid green;
+    background-color: green;
+}
+.mobile{
+    border: 1px solid orangered;
+    background-color: orangered;
+}
+.website{
+    border: 1px solid red;
+    background-color: red;
+}
+.sales{
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+}
 /*end list*/
 /*end main*/
 
